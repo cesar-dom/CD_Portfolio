@@ -20,6 +20,7 @@ class ProjectCards extends Component {
       baseURL(`event-app`),
       baseURL(`Gamifica-Relatorio`),
       baseURL(`interface`),
+      baseURL(`CD_Portfolio`),
     ];
 
     await Axios.get("https://github-lang-deploy.herokuapp.com/").then(

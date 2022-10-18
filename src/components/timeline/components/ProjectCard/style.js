@@ -6,4 +6,5 @@ gap: 1rem;
 display: flex;
 flex-wrap: wrap;
 justify-content: start;
+width: 100%;
 `

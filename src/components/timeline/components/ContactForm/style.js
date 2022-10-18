@@ -3,6 +3,9 @@ import styled from '@emotion/styled'
 export const Logo = styled.img`
  width: 12rem;
  height: auto;
+ @media (min-width: 1600px) {
+  margin: 20rem 0 0 4rem;
+  }
 `
 
 export const FormWrapper = styled.div`
@@ -26,5 +29,7 @@ export const TimelineTitleCard = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem;
-
+  @media (min-width: 1600px) {
+  background-position: top;
+  }
 `

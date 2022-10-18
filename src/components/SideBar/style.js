@@ -11,4 +11,7 @@ export const ColumnCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 425px) {
+  width: 16rem;
+  }
 `

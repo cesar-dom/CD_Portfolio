@@ -13,6 +13,10 @@ export const SkillNameCol = styled.div`
  flex-direction: column;
  align-items: end;
  width: 100%;
+ @media (max-width: 425px) {
+  text-align: right;
+  width: 42%;
+  }
 `
 export const SkillNameRow = styled.div`
  display: flex;
@@ -26,6 +30,10 @@ export const SkillsSetContent = styled.div`
   align-content: center;
   padding: 0 4rem;
   width: 60%;
+  @media (max-width: 425px) {
+  padding: 0;
+  width: 100%;
+  }
 `
 
 export const SkillsTitle = styled.h2`

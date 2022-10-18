@@ -18,6 +18,9 @@ export const PersonalDataLine = styled.a`
   &:hover: {
     color: hotpink;
   }
+  @media (max-width: 425px) {
+  width: 14rem;
+  }
 `
 
 export const PersonalDataContent = styled.div`

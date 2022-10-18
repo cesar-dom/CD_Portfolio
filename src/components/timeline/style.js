@@ -15,9 +15,6 @@ export const TimelineTitleCard = styled.div`
 `
 
 export const TimelineContentBody = styled.div`
-  padding: 2rem 0rem;
-  width: 60vw;
-  /* width: 100%; */
-
+  width: 100%;
 `
 

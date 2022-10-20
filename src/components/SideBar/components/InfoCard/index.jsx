@@ -3,8 +3,6 @@ import * as Style from "../../style"
 import { useEffect, useState } from "react"
 
 export function InfoCard() {
-
-
   return (
     <Style.ColumnCard>
       <S.PersonalDataContent>
@@ -25,6 +23,14 @@ export function InfoCard() {
         </S.PersonalDataLine>
         <S.PersonalDataLine>
           <S.DataIcon src='/mail.svg' /> <p>cesinhaobdc@gmail.com</p>
+        </S.PersonalDataLine>
+        <S.PersonalDataLine
+          href="/Curriculum_Vitae_César_Domingos_outubro_2022_en.pdf" target="_blank">
+          <S.DataIcon src='/star.svg' /> <p>Download Curriculum</p>
+        </S.PersonalDataLine>
+        <S.PersonalDataLine
+          href="/" target="_blank">
+          <S.DataIcon src='/whatsapp-icon.svg' /> <p>Contact Me</p>
         </S.PersonalDataLine>
       </S.PersonalDataContent>
     </Style.ColumnCard>

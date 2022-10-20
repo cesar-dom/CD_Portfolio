@@ -12,7 +12,7 @@ export function CarrerCard() {
             <S.SkillNameCol>
               <S.SkillNameRow>
                 <S.SkillName>Gamifica.ai</S.SkillName>
-                <S.SkillValue ><strong>CEO</strong><br />2018 — 2022</S.SkillValue>
+                <S.SkillValue ><strong>CEO • Developer</strong><br />2018 — 2022</S.SkillValue>
               </S.SkillNameRow>
               <S.SkillNameRow>
                 <S.SkillName>Ekoá Jogos</S.SkillName>

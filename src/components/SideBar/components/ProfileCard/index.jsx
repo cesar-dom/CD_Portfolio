@@ -46,7 +46,7 @@ export function ProfileCard() {
   return (
     <Style.ColumnCard>
       <S.ProfileContent>
-        <S.ProfileImg src='https://github.com/cesar-dom.png' />
+        <S.ProfileImg src='/avatar-cd.jpg' />
         <S.ProfileTitle>César Domingos</S.ProfileTitle>
         <S.ProfileSubtitle>{profileStatus}</S.ProfileSubtitle>
       </S.ProfileContent>

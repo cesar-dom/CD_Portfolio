@@ -3,6 +3,10 @@ import * as Style from "../../style"
 import { useEffect, useState } from "react"
 
 export function InfoCard() {
+  const wppNumber = import.meta.env.VITE_WPP_NUMBER
+  const wppText = "Hello,+there!+Feel+free+to+say+hi.++I+can't+wait+to+meet+you."
+  const wppLink = `https://api.whatsapp.com/send/?phone=${wppNumber}&text=${wppText}&type=phone_number&app_absent=0`
+
   return (
     <Style.ColumnCard>
       <S.PersonalDataContent>
@@ -29,7 +33,7 @@ export function InfoCard() {
           <S.DataIcon src='/star.svg' /> <p>Download Curriculum</p>
         </S.PersonalDataLine>
         <S.PersonalDataLine
-          href="/" target="_blank">
+          href={wppLink} target="_blank">
           <S.DataIcon src='/whatsapp-icon.svg' /> <p>Contact Me</p>
         </S.PersonalDataLine>
       </S.PersonalDataContent>

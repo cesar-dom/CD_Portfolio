@@ -6,7 +6,6 @@ export function Timeline() {
   const wppNumber = import.meta.env.VITE_WPP_NUMBER
   const wppText = "Hello,+there!+Feel+free+to+say+hi.++I+can't+wait+to+meet+you."
   const wppLink = `https://api.whatsapp.com/send/?phone=${wppNumber}&text=${wppText}&type=phone_number&app_absent=0`
-  console.log(wppLink)
 
   return (
     <S.TimelineContentBody>

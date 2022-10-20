@@ -21,6 +21,7 @@ class ProjectCards extends Component {
       baseURL(`Gamifica-Relatorio`),
       baseURL(`interface`),
       baseURL(`CD_Portfolio`),
+      baseURL(`pokedex`),
     ];
 
     await Axios.get("https://github-lang-deploy.herokuapp.com/").then(

@@ -49,6 +49,19 @@ export function ProfileCard() {
         <S.ProfileImg src='/avatar-cd.jpg' />
         <S.ProfileTitle>César Domingos</S.ProfileTitle>
         <S.ProfileSubtitle>{profileStatus}</S.ProfileSubtitle>
+        <S.ProfileIntroContainer>
+          <p>Cresci no Distrito Federal; em 2018 fundei a Gamifica.ai, plataforma SaaS para eventos online, que encerrou suas atividades em 2022. Nos últimos 4 anos prestei serviços para empresas como Organização Mundial de Saúde (OMS), Banco Central do Brasil e Fundação Getúlio Vargas.</p>
+          
+          <p>Tenho ampla familiaridade acadêmica e mercadológica em metodologias de design e métodos ágeis. Acostumado a trabalhar sob pressão em eventos para milhares de usuários.</p>
+
+          <p>Procuro trabalhar com uma plataforma tecnológica escalável e/ou times técnicos de produto; em regime PJ ou CLT, remoto ou híbrido.</p>
+          
+          <p> Contribuo com minha experiência de 8 anos como designer e meus 4 anos como CEO de startup.</p>
+
+          <p>Hoje busco me reposicionar na área de tecnologia como desenvolvedor front-end web (javascript). Mas estou aberto à oportunidades em atividades como Product Manager, Especialista de Suporte Técnico, UX/UI Designer ou Designer Gráfico.</p>
+
+          <p>Aproveite este portifólio que fiz especialmente para você e conheça um pouco mais sobre mim.</p>
+          </S.ProfileIntroContainer>
       </S.ProfileContent>
     </Style.ColumnCard>
   )

@@ -6,7 +6,6 @@ export const SkillValue = styled.p`
   width: 50%;
  text-align: left;
  &:hover {
-  font-weight: 600;
   color: hotpink;
  }
 `
@@ -17,7 +16,6 @@ export const SkillName = styled.p`
  width: 50%;
 
  &:hover {
-  font-weight: 600;
   color: hotpink;
  }
 `

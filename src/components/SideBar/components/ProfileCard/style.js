@@ -1,5 +1,12 @@
 import styled from '@emotion/styled'
 
+export const ProfileIntroContainer = styled.div`
+  height: 20rem;
+  overflow-y: scroll;
+  padding-right: 1rem;
+  margin-top: 1rem;
+`
+
 export const ProfileSubtitle = styled.p`
   margin: 0;
   font-weight: 200;

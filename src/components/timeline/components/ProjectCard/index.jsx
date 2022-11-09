@@ -52,10 +52,7 @@ class ProjectCards extends Component {
     return (
       <S.ProjectCardsContainer>
         {repo.map((data, key) => (
-          <>
             <GithubCard repo={data} key={key} language={language} />
-            {/* {console.log('data ->', data)} */}
-          </>
         ))}
       </S.ProjectCardsContainer>
     );

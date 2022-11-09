@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { useEffect } from 'react'
 import { ContactForm } from './components/ContactForm'
 import ProjectCards from './components/ProjectCard'
 import * as S from './style'

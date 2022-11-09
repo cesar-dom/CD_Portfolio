@@ -1,5 +1,10 @@
 import styled from '@emotion/styled'
 
+export const PinkStrong = styled.span`
+  font-weight: 600;
+  color: hotpink;
+`
+
 export const ProfileIntroContainer = styled.div`
   height: 20rem;
   overflow-y: scroll;

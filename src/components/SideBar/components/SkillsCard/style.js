@@ -4,7 +4,6 @@ export const SkillName = styled.p`
  margin: .2rem;
  font-size: large;
  &:hover {
-  font-weight: 600;
   color: hotpink;
  }
 `

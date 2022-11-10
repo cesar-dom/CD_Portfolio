@@ -14,6 +14,13 @@ export function Timeline() {
       <S.TimelineTitleCard>
         <S.TimelineTitleCardH2>My projects</S.TimelineTitleCardH2>
       </S.TimelineTitleCard>
+      {/* <S.TimelineTitleCard>
+        <S.TimelineTitleCardH2>Audio Player</S.TimelineTitleCardH2>
+        <audio
+        controls
+        src="https://nerdcast-cdn.jovemnerd.com.br/nerdtech_81.mp3">
+        </audio>
+      </S.TimelineTitleCard> */}
       <ProjectCards />
       <S.TimelineTitleCard>
         {/* <S.TimelineTitleCardH2>Recent Posts</S.TimelineTitleCardH2> */}

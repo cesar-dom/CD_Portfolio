@@ -17,11 +17,12 @@ class ProjectCards extends Component {
     const api_key = import.meta.env.VITE_API_KEY
 
     const repo = [
-      baseURL(`event-app`),
-      baseURL(`Gamifica-Relatorio`),
-      baseURL(`interface`),
+      baseURL(`Find_Pokemon`),
       baseURL(`CD_Portfolio`),
+      baseURL(`event-app`),
       baseURL(`pokedex`),
+      baseURL(`interface`),
+      baseURL(`Gamifica-Relatorio`),
     ];
 
     await Axios.get("https://github-lang-deploy.herokuapp.com/").then(

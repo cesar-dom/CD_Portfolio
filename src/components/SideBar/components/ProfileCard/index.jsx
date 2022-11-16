@@ -63,7 +63,7 @@ export function ProfileCard() {
 
               <p>Procuro trabalhar com uma plataforma tecnológica escalável e/ou times técnicos de produto; em regime <strong>PJ</strong> ou <strong>CLT</strong>, <strong>remoto</strong> ou <strong>híbrido</strong>.</p>
               
-              <p>Contribuo com minha experiência de como <S.PinkStrong>Designer</S.PinkStrong> e meus <strong>4 anos</strong> como <S.PinkStrong>co-fundador de startup</S.PinkStrong> e <S.PinkStrong>CEO</S.PinkStrong>.</p>
+              <p>Contribuo com minha experiência como <S.PinkStrong>Designer</S.PinkStrong> e meus <strong>4 anos</strong> como <S.PinkStrong>co-fundador de startup</S.PinkStrong> e <S.PinkStrong>CEO</S.PinkStrong>.</p>
 
               <p>Hoje busco me reposicionar na área de tecnologia como <S.PinkStrong>desenvolvedor front-end</S.PinkStrong> (javascript), mas estou aberto às oportunidades em atividades como <strong>Product Manager</strong>, <strong>Especialista de Suporte Técnico</strong>, <strong>UX/UI Designer</strong> ou <strong>Designer Gráfico</strong>.</p>
 
